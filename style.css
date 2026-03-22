@@ -1,1 +1,49 @@
+header {
+  background-image: url("https://t3.ftcdn.net/jpg/15/26/71/54/360_F_1526715447_D0511GPHcVVTGLQyGwo6qwJECKkWlpaM.jpg");
+  background-size: cover;
+  background-position: center;
 
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: overlay;
+
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+.tagline {
+  font-size: 1.3rem;
+}
+
+.gradient-section {
+  background: linear-gradient(
+    135deg,
+    #156539,
+    #2bb673
+  );
+
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.solid-section {
+  background-color: #003DF5;
+
+  background-blend-mode: overlay;
+
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
